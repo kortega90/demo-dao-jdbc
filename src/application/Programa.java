@@ -37,6 +37,7 @@ public class Programa {
 		Seller newSeller = new Seller(null,"Greg", "greg@gamail.com",new Date(),4000.0, department);
 		sellerDao.insert(newSeller);
 		System.out.println ("Inseted! New id =" + newSeller.getId());
+		System.out.println ("Inseted! New id =" + newSeller.getId());
 	}
 
 }
